@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 4px;
+    position: absolute;
+
+}
+
+.logo img {
+    display: block;
+    margin: 4px auto;
+}
+
+.menu {
+    position: absolute;
+    margin-top: 94px;
+}
+
+.menu ul {
+    margin: 1px;
+
+}
+
+.menu ul li {
+    padding: 1px;
+}
+
+.menu ul li a {
+    padding: 1px;
+    font-size: 0.8rem;
+}
+
+#btn {
+    position: absolute;
+    margin-top: 198px;
+    font-size: 1rem;
+}
+
+.banner {
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.app-text {
+    width: 50%;
+}
+.app-text h1{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.app-text h3 {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.app-text p{
+    font-size: 12px;
+    margin: 30px 0px;
+}
+.btn-group .signup-btn {
+    font-size: 10px;
+    padding: 10px 12px;
+}
+.app-picture {
+    margin-top: 125px;
+    margin-left: 25px;
+}
+.app-picture img {
+    height: 170px;
+    padding: 2px;
+}
+
+.service{
+    display: block;
+    margin: 2px auto;
+
+}
+.item{
+    width: 100%;
+    display: block;
+    margin: 2px auto;
+}
+footer{
+    display: block;
+    margin: 4px auto;
+
+}
+#copy p {
+    font-size: 15px;
+    letter-spacing: 1px;
+}

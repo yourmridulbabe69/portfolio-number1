@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header {
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+
+.logo {
+    margin: 4px 8px;
+    padding: 12px;
+}
+
+.logo img {
+    height: 80px;
+    margin-left: 25px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 240px;
+    margin-top: 13px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 10px 14px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+a:hover {
+    background-color: #ffa037;
+    border: none;
+    border-radius: 15px;
+
+}
+
+#btn {
+    padding: 6px;
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 14px auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 18px;
+    background-color: #ffa037;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+#btn:hover {
+    background-color: yellow;
+    opacity: 0.8;
+
+}
+
+.banner {
+    display: flex;
+    width: 80%;
+    height: 70%;
+    color: #fff;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.app-text {
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 18px;
+    padding-left: 20px;
+
+}
+
+.app-text h3 {
+    margin-top: 12px;
+    font-size: 25px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app-text h1 {
+    font-size: 50px;
+    position: relative;
+    color: #000;
+    margin-top: 15px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.app-text p {
+    font-size: 19px;
+    margin: 30px 30px 30px 0px;
+    letter-spacing: 1px;
+    color: #000;
+
+}
+
+.btn-group {
+    display: flex;
+}
+
+.btn-group .signup-btn {
+    cursor: pointer;
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    background-color: #ffa037;
+    padding: 15px 50px;
+
+}
+
+.app-picture {
+    margin: 4px;
+    padding: 4px;
+    margin-top: 45px;
+    margin-left: 80px;
+
+}
+
+.app-picture img {
+    height: 350px;
+    padding: 2px;
+}
+
+
+.service {
+    margin-left: 55px;
+    margin-top: 7px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.item {
+    padding: 12px;
+    margin: 10px;
+    width: 33.33%;
+
+}
+
+.item img {
+    height: 120px;
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+
+}
+
+.item h1 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 12px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.item p {
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+footer {
+    width: 80%;
+    height: 20px;
+    display: block;
+    margin: 4px auto;
+}
+
+#copy {
+    margin: 2px;
+}
+
+#copy p {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
